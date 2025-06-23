@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 90%;
+    margin: 0;
+    padding: 20px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width: 756px){
+    .box{
+        background-color: blue;
+    }
+
+    .navbar{
+        background-color: yellow;
+    }
+}
+
+@media(max-width:511px){
+    .box{
+        background-color: black;
+        color: white;
+    }
+    .navbar{
+        background-color: red;
+    }
+}
